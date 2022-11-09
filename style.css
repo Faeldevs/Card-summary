@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    background-image: linear-gradient(rgba(192, 229, 247, 0.75),rgba(255, 255, 255, 0.75)), url(images/pattern-background-desktop.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.inicio{
+    margin-top: 2em;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.principal{
+    height: 100vh;
+    width: 100%;
+    max-width: 380px;
+    background-color: rgba(255, 255, 255, 0.795);
+    border-radius: 20px;
+}
+
+.principal__banner{
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.principal__titulo{
+    padding: 1.3em 0;
+    color: rgb(12, 1, 114);
+}
+
+.principal__texto{
+    text-align: center;
+    padding: 0 3em;
+    color: rgb(135, 137, 161);
+}
+
+.preco{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2em 0 2em 2em;
+}
+
+.preco__icone{
+    padding: 0 1em;
+}
+
+.preco__titulo{
+    color: rgb(30, 14, 170);
+}
+
+.preco__texto{
+    padding: 0;
+}
+
+.preco__link{
+    margin-left: 4em;
+    color: rgb(30, 14, 170);
+}
+
+.botao{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.botao__principal{
+    font-weight: 600;
+    color: #fff;
+    
+    background-color: rgb(32, 15, 190);
+    border: none;
+    border-radius: 10px;
+    padding: 1em 7em;
+}
+
+.botao__principal:hover{
+    cursor: pointer;
+    transition: all 1s;
+    box-shadow: 2px 10px 2px 2px rgba(214, 214, 214, 0.644);
+    background-color: rgb(24, 11, 139);
+}
+
+.botao__secundario{
+    font-weight: 600;
+    color: rgb(135, 137, 161);
+    text-decoration: none;
+    padding: 1.5em 0;
+}
+
+
+.atributos{ 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.atributos a { 
+    color: hsl(228, 45%, 44%); 
+}
+    
